@@ -1,5 +1,19 @@
-@media screen and (max-width:600px) {
+@media screen and (max-width:700px) {
   .container__menu-title > h1{
-    font-size: 30px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+
+  }
+
+  .container__menu-bar > ul{
+    width: 90%;
+    margin: auto;
+  }
+}
+  @media screen and (max-width:400px) {
+    .container__menu-title > h1{
+      align-items: center;
   }
 }
