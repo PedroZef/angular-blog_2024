@@ -1,5 +1,7 @@
 .container__menu-title{
   color: var(--color-write);
+  text-align: center;
+  align-items: center;
 }
 
 .container__menu-title > a > h1{

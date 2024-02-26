@@ -1,21 +1,28 @@
-.container__big-card{
+.container__big-card > img {
+  display: flex;
+  width: 440px;
+}
 
+.container__big-card{
   margin-left: 20px;
-  margin-right: 20px;
+  margin-right: 60px;
   margin-bottom: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
-
-  width: 460px;
+  justify-content: center;
+  gap:  45px;
+  width: 100%;
 
   @media(min-width: 700px) {
-    width: 200px;
+    width: 300px;
     margin-bottom: 0;
   }
   @media(min-width: 1000px) {
-    width: 400px;
+
+    margin-top: 20px;
+
+
   }
 }
 
